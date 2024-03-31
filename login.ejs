@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <!--prob have to use post for lab 9-->
+    <form action="/login" method="post"> <!--must use post and the path uses /login in app.js-->
+        <!--username-->
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required>
+
+        <!--password-->
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required>
+
+        <!--button for login-->
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
